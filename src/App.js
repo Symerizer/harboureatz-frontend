@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Map from './components/map/Map.js'
 
+
 class App extends Component {
   render() {
     return (
