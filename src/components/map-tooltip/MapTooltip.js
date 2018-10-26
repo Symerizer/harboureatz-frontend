@@ -15,7 +15,7 @@ export default class MapTooltip extends Component {
   render () {
     return (
       <div className="mapTooltip">
-        <p onClick={this.handleClick} className="tooltipLink">{this.props.text}</p>
+        <span onClick={this.handleClick} className="tooltipLink">{this.props.text}</span>
       </div>
     )
   }

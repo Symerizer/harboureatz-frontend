@@ -4,6 +4,20 @@
 }
 
 .tooltipLink {
-    font-size: 10px;
+    display: block;
+    width: 5em;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    border: solid 1px black;
+    font-size: 12px;
     cursor: pointer;
+}
+
+.restaurantName {
+    font-size: 4em;
+}
+
+.userName {
+    padding-bottom: 20px;
 }
